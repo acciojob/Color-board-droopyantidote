@@ -1,1 +1,17 @@
-/*  your css code here. If applicable */
+.container {
+    display: grid;
+    grid-template-columns: repeat(20, 40px); /* Adjust as needed */
+    grid-gap: 2px; /* Adjust the gap between squares */
+}
+
+.square {
+    width: 40px; /* Adjust the width of squares */
+    height: 40px; /* Adjust the height of squares */
+    background-color: transparent;
+    border: 1px solid black; /* Add borders to squares */
+    transition: background-color 0.3s; /* Smooth transition effect */
+}
+
+.square:hover {
+    background-color: #ccc; /* Adjust the color on hover if needed */
+}
