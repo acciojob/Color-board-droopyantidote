@@ -7,7 +7,7 @@
 .square {
     width: 40px; /* Adjust the width of squares */
     height: 40px; /* Adjust the height of squares */
-    background-color: transparent;
+    background-color: rgb(29, 29, 29);
     border: 1px solid black; /* Add borders to squares */
     transition: background-color 0.3s; /* Smooth transition effect */
 }
