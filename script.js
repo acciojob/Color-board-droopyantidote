@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
         square.addEventListener('mouseout', function () {
             setTimeout(function () {
                 square.style.transition = 'background-color 1s';
-                square.style.backgroundColor = 'charcoal';
+                square.style.backgroundColor = 'rgb(29, 29, 29)';
             }, 1000); // 1000 milliseconds = 1 second
         });
 
